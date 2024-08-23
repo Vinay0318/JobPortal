@@ -9,8 +9,6 @@ const jwt = require('jsonwebtoken');
 app.use(express.json());
 app.use(cors());
 
-//user: rahulrikhari2001
-//pass: z3vZXyufloP9sPcO
 
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
